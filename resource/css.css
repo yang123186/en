@@ -1,0 +1,54 @@
+
+@charset "utf-8";
+td {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR:#404a42;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+	line-height: 20pt;
+	text-decoration: none;
+}
+a:link {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR:#000000;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: "宋体";
+	line-height: 15pt;
+	text-decoration: none;
+}
+a:visited {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR:#000000;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: "宋体";
+	line-height: 15pt;
+	text-decoration: none;
+}
+a:hover {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-SIZE: 10pt;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR:#D31B01;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: "宋体";
+	line-height: 15pt;
+	text-decoration: none;
+}
+.no1{border:solid 2px #EBEBEB;}
+
+p{
+text-indent: 2em;}

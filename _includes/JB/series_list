@@ -1,0 +1,32 @@
+{% comment %}<!--
+The series_list include is a listing helper.
+Usage:
+  1) assign the 'series_list' variable to a valid array of series or posts.
+  2) include JB/series_list
+  example:
+    <ul>
+  	  {% assign series_list = site.series %}  
+  	  {% include JB/series_list %}
+  	</ul>
+  	
+  Grouping: (optional): 
+  	assign the 'group' variable to constrain the list to only series/posts
+  	in the given group. Note you must define the group manually in the page/post
+  	meta-data to use this feature.
+  	Grouping is mainly helpful for non-post series.
+  	If you want to group posts, it's easier/better to tag them, then pass the tagged posts array.
+  	i.e. site.tags.cool_tag (this returns an array of posts tagged: cool_tag)
+  	
+  This helper can be seen in use at: ../_layouts/default.html
+-->{% endcomment %}
+
+
+  {% for node in series_list %}
+      {% if node.tag == 'series' %}
+        <li><a href="{{ site.url }}{{node.url}}"><font size="2.5px">{{node.title}}</font></a></li>
+	<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="95%" color=#BDBDBD SIZE=3>
+      {% endif %}
+  {% endfor %}
+
+{% assign series_list = nil %}
+{% assign group = nil %}
