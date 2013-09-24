@@ -16,7 +16,7 @@ You can also call us: 0757-28370099
 <br/>
 
 <div id="disqus_thread"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'yang123186'; // required: replace example with your forum shortname
 
