@@ -24,7 +24,6 @@ Usage:
   {% for node in news_list %}
       {% if node.tag == 'news' %}
       	<li><a href="{{ site.url }}{{node.url}}">{{node.title}}</a></li>
-	<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="95%" color=#BDBDBD SIZE=3>
       {% endif %}
   {% endfor %}
 
